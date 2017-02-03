@@ -67,7 +67,6 @@ public class Main {
         result = addInfo("date") + addInfo("genre") + addInfo("description") + addInfo("country");
         return result;
     }
-
     private static String addInfo(String criterion){
         Scanner scan = new Scanner(System.in);
         System.out.println("Write a " + criterion);
